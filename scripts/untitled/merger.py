@@ -13,7 +13,7 @@ from tqdm import tqdm
 from copy import copy,deepcopy
 from modules import devices,shared,script_loading,paths,paths_internal,sd_models,sd_unet,sd_hijack
 
-networks = script_loading.load_module(os.path.join(paths.extensions_builtin_dir,'Lora','networks.py'))
+networks = script_loading.load_module(os.path.join(paths.extensions_builtin_dir,'sd_forge_lora','networks.py'))
 
 class MergeInterruptedError(Exception):
     def __init__(self,*args):
