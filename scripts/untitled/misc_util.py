@@ -6,7 +6,7 @@ from modules import sd_models,script_callbacks,shared,sd_unet,sd_hijack,sd_model
 
 import scripts.untitled.common as cmn
 
-networks = script_loading.load_module(os.path.join(paths.extensions_builtin_dir,'Lora','networks.py'))
+networks = script_loading.load_module(os.path.join(paths.extensions_builtin_dir,'sd_forge_lora','networks.py'))
 
 
 
